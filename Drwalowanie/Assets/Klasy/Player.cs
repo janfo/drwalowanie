@@ -22,6 +22,7 @@ public class Player : MonoBehaviour {
 
 	void FixedUpdate () {
 		hungryFunction();
+		staminaFunction();
 	}
 	
 	///
@@ -34,12 +35,24 @@ public class Player : MonoBehaviour {
 			//jeżeli obiekt głodny ujmuj mu życia
 			hp = hp - Time.deltaTime * 0.3f;
 		}
+		if(hungry>=100){
+			//gracz umiera
+		}
+		if(hungry <= 0){
+			hungry = 0;
+		}
 		//obiekt głodnieje
 		hungry = hungry + Time.deltaTime * 0.3f;
 	}
 
 	private void staminaFunction(){
-
+		if(stamina >= 100){
+			stamina = 100;
+		}
+		stamina = stamina + Time.deltaTime * 0.3f;
+		if(stamina < 5){
+			//zaprzestaj rąbania dewna
+		}
 	}
 
 	///
@@ -48,7 +61,7 @@ public class Player : MonoBehaviour {
 
 	//metoda ma na celu zwiększenie staminy gracza wtedy giety zostanie wykonane uderzenie siekierą
 	public void setOneHitAxeSTAMINA(){
-
+		stamina = stamina - 5;
 	}
 
 	//metoda zwraca zakrąglony poziom życia
