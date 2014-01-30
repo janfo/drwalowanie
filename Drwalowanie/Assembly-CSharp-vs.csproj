@@ -39,18 +39,35 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Klasy\Drzewo.cs" />
-     <Compile Include="Assets\Klasy\Player.cs" />
-     <Compile Include="Assets\Klasy\Samochod.cs" />
-     <Compile Include="Assets\Klasy\Sklep.cs" />
+     <Compile Include="Assets\AnimacjaSiekiera.cs" />
+     <Compile Include="Assets\Klasy\Buildings\Tartak.cs" />
+     <Compile Include="Assets\Klasy\Food\Apple.cs" />
+     <Compile Include="Assets\Klasy\Food\Bread.cs" />
+     <Compile Include="Assets\Klasy\Food\Egg.cs" />
+     <Compile Include="Assets\Klasy\Food\Fish.cs" />
+     <Compile Include="Assets\Klasy\Food\Meat.cs" />
+     <Compile Include="Assets\Klasy\Food\Soup.cs" />
+     <Compile Include="Assets\Klasy\Food\Vension.cs" />
+     <Compile Include="Assets\Klasy\Nature\Drzewo.cs" />
+     <Compile Include="Assets\Klasy\Others\Sklep.cs" />
+     <Compile Include="Assets\Klasy\Player\Player.cs" />
+     <Compile Include="Assets\Klasy\Player\PlayerEquipment.cs" />
+     <Compile Include="Assets\Klasy\TemporaryClass.cs" />
+     <Compile Include="Assets\Klasy\ToSell\Wood.cs" />
+     <Compile Include="Assets\Klasy\Vehicles\Samochod.cs" />
+     <Compile Include="Assets\Klasy\WoodShop\DrawEnter.cs" />
+     <Compile Include="Assets\Klasy\WoodShop\SprzedazDrewna.cs" />
+     <Compile Include="Assets\MenuScripts\menuGUI.cs" />
+     <Compile Include="Assets\woodShopScripts\woodShopGUI.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Media\Models\Klody\2\readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

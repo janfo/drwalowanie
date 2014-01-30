@@ -7,6 +7,8 @@ Project("{DC4A994D-3B71-3158-349D-C38E8063B93B}") = "Drwalowanie", "Assembly-CSh
 EndProject
 Project("{DC4A994D-3B71-3158-349D-C38E8063B93B}") = "Drwalowanie", "Assembly-UnityScript-firstpass.unityproj", "{10BF1427-A5DA-D2D6-A83C-BCD336982923}"
 EndProject
+Project("{DC4A994D-3B71-3158-349D-C38E8063B93B}") = "Drwalowanie", "Assembly-UnityScript.unityproj", "{8985E380-A170-A65C-877A-4D47A8E0DCB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{10BF1427-A5DA-D2D6-A83C-BCD336982923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BF1427-A5DA-D2D6-A83C-BCD336982923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BF1427-A5DA-D2D6-A83C-BCD336982923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8985E380-A170-A65C-877A-4D47A8E0DCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8985E380-A170-A65C-877A-4D47A8E0DCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8985E380-A170-A65C-877A-4D47A8E0DCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8985E380-A170-A65C-877A-4D47A8E0DCB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-													GlobalSection(MonoDevelopProperties) = preSolution
+																																																							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
