@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{DC4A994D-3B71-3158-349D-C38E8063B93B}") = "Drwalowanie", "Assembly-CSharp-firstpass-vs.csproj", "{CD8B5C7B-336B-7AA4-6FB5-C5B268FF869F}"
+EndProject
 Project("{DC4A994D-3B71-3158-349D-C38E8063B93B}") = "Drwalowanie", "Assembly-CSharp-vs.csproj", "{3482CFDF-474B-ADEC-A79A-345D0F280BE1}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8B5C7B-336B-7AA4-6FB5-C5B268FF869F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8B5C7B-336B-7AA4-6FB5-C5B268FF869F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8B5C7B-336B-7AA4-6FB5-C5B268FF869F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8B5C7B-336B-7AA4-6FB5-C5B268FF869F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3482CFDF-474B-ADEC-A79A-345D0F280BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3482CFDF-474B-ADEC-A79A-345D0F280BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3482CFDF-474B-ADEC-A79A-345D0F280BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-												GlobalSection(MonoDevelopProperties) = preSolution
+														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
