@@ -10,6 +10,10 @@ public class AnimacjaSiekiera : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetButtonDown("Fire1"))
-			GameObject.Find("axe").animation.Play("axeHit");
+		{
+			Debug.Log("wywolanie");
+			gameObject.particleSystem.Play();
+		}
+			//GameObject.Find("axe").animation.Play("axeHit");
 	}
 }
