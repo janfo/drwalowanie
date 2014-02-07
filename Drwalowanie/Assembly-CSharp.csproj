@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AnimacjaSiekiera.cs" />
+     <Compile Include="Assets\Animacje\Siekiera\AnimacjaSiekiera.cs" />
      <Compile Include="Assets\HeartHolder.cs" />
      <Compile Include="Assets\Klasy\Buildings\Tartak.cs" />
      <Compile Include="Assets\Klasy\Food\Apple.cs" />
@@ -67,9 +67,11 @@
      <Compile Include="Assets\Klasy\WoodShop\SprzedazDrewna.cs" />
      <Compile Include="Assets\MenuScripts\menuGUI.cs" />
      <Compile Include="Assets\TrreOnDown.cs" />
+     <Compile Include="Assets\treeCollision.cs" />
      <Compile Include="Assets\woodShopScripts\woodShopGUI.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Media\Models\Klody\2\readme.txt" />
+     <None Include="Assets\Media\Models\Others\woodPallet\read_me.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

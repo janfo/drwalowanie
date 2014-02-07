@@ -1,9 +1,19 @@
 ﻿<Properties GitUserInfo="UsingGIT">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TrreOnDown.cs">
     <Files>
       <File FileName="Assets\HeartHolder.cs" Line="29" Column="19" />
       <File FileName="Assets\TrreOnDown.cs" Line="36" Column="15" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\treeCollision.cs">
+    <Files>
+      <File FileName="Assets\treeCollision.cs" Line="37" Column="34" />
+      <File FileName="Assets\treeCollision.cs" Line="31" Column="36" />
+      <File FileName="Assets\Klasy\WoodShop\DrawEnter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Klasy\WoodShop\SprzedazDrewna.cs" Line="1" Column="1" />
+>>>>>>> 0fb9c145224e36d3c14a0c6b0b5220fcd0cc1d7e
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
