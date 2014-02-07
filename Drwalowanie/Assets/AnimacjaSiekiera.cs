@@ -13,6 +13,7 @@ public class AnimacjaSiekiera : MonoBehaviour {
 		{
 			Debug.Log("wywolanie");
 			gameObject.particleSystem.Play();
+
 		}
 			//GameObject.Find("axe").animation.Play("axeHit");
 	}
